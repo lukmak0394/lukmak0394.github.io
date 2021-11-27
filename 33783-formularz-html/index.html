@@ -7,6 +7,45 @@
     <title>Formularz HTML5</title>
 </head>
 <body>
-    
+    <form action="#" method="POST">
+        <div>
+            <label for="first-name">Imię: </label>
+            <input type="text" name="first-name" id="first-name" required>
+        </div>
+        <div>
+            <label for="second-name">Nazwisko: </label>
+            <input type="text" name="second-name" id="second-name" required>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="phone">Telefon: </label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="city">Miasto:</label>
+            <select name="city" id="city">
+                <option value="warsaw">Warszawa</option>
+                <option value="krakow">Kraków</option>
+                <option value="gdansk">Gdańsk</option>
+            </select>
+        </div>
+        <div>
+            <label>Płeć: </label>
+            <label><input type="radio" name="gender">Kobieta</label>
+            <label><input type="radio" name="gender">Mężczyzna</label>
+            <label><input type="radio" name="gender">Inna</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="agreement" id="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        </div>        
+        <div>
+            <label for="message">Wiadomość:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Wyślij formularz">
+    </form>
 </body>
 </html>
