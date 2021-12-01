@@ -3,3 +3,26 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    color: #fff;
+    line-height: 1.6;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header {
+    background: red;
+}
+main {
+    background: lightskyblue;
+}
+.aside-left {
+    background: darkgreen;
+}
+.aside-right {
+    background: lightpink;
+}
+footer {
+    background: violet;
+}
