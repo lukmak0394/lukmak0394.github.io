@@ -6,23 +6,63 @@
 
 body {
     color: #fff;
-    line-height: 1.6;
+    line-height: 4;
     text-transform: uppercase;
     text-align: center;
+}
+
+main {
+    display: flex;
 }
 
 header {
     background: red;
 }
-main {
-    background: lightskyblue;
-}
 .aside-left {
     background: darkgreen;
+    order: 1;
+}
+section {
+    background: lightskyblue;
+    order: 2;
 }
 .aside-right {
     background: lightpink;
+    order: 3;
 }
 footer {
     background: violet;
 }
+
+.aside-left,
+.aside-right {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    section {
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    main {
+        flex-wrap: wrap;
+    }
+    section {
+        order: 1;
+        width: 70%;
+    }
+    .aside-right {
+        order: 1;
+        width: 30%;
+    }
+    .aside-left {
+        order: 3;
+        width: 100%;
+    }
+}
+
