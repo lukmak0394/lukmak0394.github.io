@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    max-width: 20%;
+    border: 1px solid var(--bs-secondary-rgb);
+    border-bottom: 0;
+}
