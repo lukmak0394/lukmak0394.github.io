@@ -1,0 +1,33 @@
+.container,
+.accordion-button {
+    text-align: center;
+}
+
+hr {
+    margin: 10px auto;
+    max-width: 25%;
+    border: 1px solid var(--bs-secondary-rgb);
+    border-bottom: 0;
+}
+
+.accordion-button  {
+    display: inline-block;
+}
+
+.accordion-button,
+.accordion-button:active,
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    color: #FF8800;
+}
+
+.accordion-button:active,
+.accordion-button:focus {
+    text-decoration: underline;
+    text-decoration-color: #FF8800;
+}
+
+
+.accordion-button::after {
+    content: none;
+}
