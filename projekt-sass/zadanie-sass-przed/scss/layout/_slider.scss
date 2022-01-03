@@ -18,6 +18,11 @@
 			z-index: 11;
 		}
 
+		.icon-prev:hover,
+		.icon-next:hover {
+			background-color: $color-link-hover;
+		}
+
 		.icon-prev {
 			-webkit-border-top-right-radius: 8px;
 			-webkit-border-bottom-right-radius: 8px;
