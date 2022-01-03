@@ -186,6 +186,13 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-link;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+        }
+
+        .icon-services:hover {
+            transform: rotate(-45deg);
         }
 
 
