@@ -46,6 +46,7 @@
         position: relative; 
         padding: ($baseline * 4) $padding-none;
 
+
         .container {
             position: relative;
             z-index: 11;
@@ -57,6 +58,7 @@
             .counters-box {
                 margin: ($baseline * 3) auto $margin-none;
 
+                
                 h1 {
                     font-size: $base-font-size + 42;
                     color: $color-text-primary;
@@ -73,7 +75,7 @@
                 }
 
                 .text-primary {
-                    color: $color-primary;
+                    color: $color-link;
                 }
             }
         }
