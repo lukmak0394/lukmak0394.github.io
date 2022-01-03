@@ -69,7 +69,7 @@
             font-size: $base-font-size - 3;
             font-weight: $font-weight-nav;
             text-transform: uppercase;
-            background-color: $color-bg-main;
+            background-color: $color-background;
             font-family: $font-primary;
             margin-left: 10px;
             padding-bottom: 10px;
@@ -192,9 +192,12 @@
                 border-top: 0;
                 border-bottom: 0;
                 border-left: 1px solid $color-border;
-                color: $color-primary;
+                color: $color-link;
                 background-color: transparent;
                 margin-top: 5px;
+            }
+            .btn-search:hover {
+                color: $color-link-hover;
             }
 
             #dropdownMenu {
@@ -203,7 +206,7 @@
                 font-size: $base-font-size - 3;
                 font-weight: $font-weight-nav;
                 text-transform: uppercase;
-                background-color: $color-bg-main;
+                background-color: $color-background;
                 font-family: $font-primary;
                 padding-top: 16px;
                 padding-bottom: 16px;
