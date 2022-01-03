@@ -75,4 +75,13 @@
 	p {
 		color: $color-text-light;
 	}
+
+	.footer-below {
+		.fa-facebook,
+		.fa-google-plus,
+		.fa-twitter,
+		.fa-linkedin {
+			font-size: 25px;
+		}
+	}
 }
