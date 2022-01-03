@@ -35,7 +35,7 @@
 					
 					p {
 						margin: $margin-none;
-						color: $color-primary;
+						color: $color-link-hover;
 					}
 				}
 
@@ -60,11 +60,12 @@
 		}
 
 		a:hover {
-			color: $color-primary;
+			color: $color-link-hover;
 		}
 
+		
 		.btn-default:hover {
-			border-color: $color-primary;
+			border-color: $color-link;
 		}
 	}
 
