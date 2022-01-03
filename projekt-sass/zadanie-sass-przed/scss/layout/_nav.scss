@@ -1,8 +1,9 @@
 /***/
 /*==========  4.3 - Nav styles  ==========*/
 
+
 .navbar-default {
-    background-color: $color-bg-main;
+    background-color: $color-background;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -130,7 +131,7 @@
 @media(min-width:768px) {
     
     .navbar-default {
-        background-color: $color-bg-main;
+        background-color: $color-background;
         top: $base-font-size * 2;
         
         .navbar-header .navbar-brand {
