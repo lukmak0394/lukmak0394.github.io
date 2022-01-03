@@ -83,6 +83,7 @@
 /*==========  1.1 - @import(s)  ==========*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:wght@500;600;700&display=swap);
 /***/
 /*==========  1.2 - Fonts  ==========*/
 /***/
@@ -10595,17 +10596,17 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body a, body input, body p {
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
   text-transform: uppercase;
   color: #222222;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   margin-bottom: 24px;
   margin-top: 24px;
 }
@@ -10635,12 +10636,12 @@ body h6 {
 }
 
 body a {
-  color: #2eb6d1;
+  color: #a5e200;
   text-decoration: none;
 }
 
 body a:hover {
-  color: #238a9e;
+  color: #88ba00;
 }
 
 body .overlay {
@@ -10788,7 +10789,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 @media (min-width: 768px) {
   .header-contact {
-    background-color: #f7f7f7;
+    background-color: #f0f4dc;
     height: 32px;
     line-height: 32px;
     font-size: 16px;
@@ -10806,10 +10807,10 @@ header.header-image .header-content .header-content-inner h5 {
     margin-bottom: 0;
   }
   .header-contact ul .fa-twitter, .header-contact ul .fa-facebook, .header-contact ul .fa-linkedin, .header-contact ul .fa-google-plus {
-    color: #2eb6d1;
+    color: #a5e200;
   }
   .header-contact ul .fa-twitter:hover, .header-contact ul .fa-facebook:hover, .header-contact ul .fa-linkedin:hover, .header-contact ul .fa-google-plus:hover {
-    color: #238a9e;
+    color: #88ba00;
   }
 }
 
@@ -10818,7 +10819,7 @@ header.header-image .header-content .header-content-inner h5 {
 /***/
 /*==========  4.3 - Nav styles  ==========*/
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #f0f4dc;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -10885,7 +10886,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #ffffff;
+  background-color: #f0f4dc;
   font-family: "Lato Regular", Helvetica, sans-serif;
   margin-left: 10px;
   padding-bottom: 10px;
@@ -10945,7 +10946,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #ffffff;
+    background-color: #f0f4dc;
     top: 32px;
   }
   .navbar-default .navbar-header .navbar-brand {
@@ -10996,9 +10997,12 @@ header.header-image .header-content .header-content-inner h5 {
     border-top: 0;
     border-bottom: 0;
     border-left: 1px solid #dddddd;
-    color: #2eb6d1;
+    color: #a5e200;
     background-color: transparent;
     margin-top: 5px;
+  }
+  .navbar-default .navbar-nav .btn-search:hover {
+    color: #88ba00;
   }
   .navbar-default .navbar-nav #dropdownMenu {
     border: 0px;
@@ -11006,7 +11010,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ffffff;
+    background-color: #f0f4dc;
     font-family: "Lato Regular", Helvetica, sans-serif;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -11182,7 +11186,7 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 .carousel .carousel-control .icon-prev, .carousel .carousel-control .icon-next {
-  background-color: #2eb6d1;
+  background-color: #a5e200;
   width: 40px;
   height: 40px;
   font-size: 32px;
@@ -11190,6 +11194,11 @@ header.header-image .header-content .header-content-inner h5 {
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
+}
+
+.carousel .carousel-control .icon-prev:hover,
+.carousel .carousel-control .icon-next:hover {
+  background-color: #88ba00;
 }
 
 .carousel .carousel-control .icon-prev {
@@ -11238,8 +11247,8 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 #main-slider .carousel-caption .btn-primary {
-  margin-top: 48px;
-  font-size: 14px;
+  margin-top: 24px;
+  font-size: 22px;
   padding: 10px 12px;
 }
 
@@ -11409,7 +11418,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 #slider-testimonials {
   min-height: 500px;
-  background-color: #f7f7f7;
+  background-color: #f0f4dc;
 }
 
 #slider-testimonials .carousel-inner {
@@ -11480,7 +11489,7 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 .t108-footer .footer-above {
-  padding-top: 48px;
+  padding-top: 80px;
 }
 
 .t108-footer .footer-above .margin-none p {
@@ -11507,15 +11516,19 @@ header.header-image .header-content .header-content-inner h5 {
 
 .t108-footer .footer-above .footer-col .contact a:hover p, .t108-footer .footer-above .footer-col .tweets a:hover p {
   margin: 0;
-  color: #2eb6d1;
+  color: #88ba00;
 }
 
 .t108-footer .footer-above .footer-col .contact .fa-twitter, .t108-footer .footer-above .footer-col .tweets .fa-twitter {
-  color: #2eb6d1;
+  color: #a5e200;
+}
+
+.t108-footer .footer-above .footer-col .contact .fa-twitter:hover, .t108-footer .footer-above .footer-col .tweets .fa-twitter:hover {
+  color: #88ba00;
 }
 
 .t108-footer .footer-above .footer-col .tweets a:hover {
-  color: #238a9e;
+  color: #88ba00;
 }
 
 .t108-footer .footer-above a {
@@ -11523,11 +11536,11 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 .t108-footer .footer-above a:hover {
-  color: #2eb6d1;
+  color: #88ba00;
 }
 
 .t108-footer .footer-above .btn-default:hover {
-  border-color: #2eb6d1;
+  border-color: #a5e200;
 }
 
 .t108-footer h1, .t108-footer h2, .t108-footer h3, .t108-footer h4, .t108-footer h5, .t108-footer h6 {
@@ -11536,6 +11549,13 @@ header.header-image .header-content .header-content-inner h5 {
 
 .t108-footer p {
   color: #979797;
+}
+
+.t108-footer .footer-below .fa-facebook,
+.t108-footer .footer-below .fa-google-plus,
+.t108-footer .footer-below .fa-twitter,
+.t108-footer .footer-below .fa-linkedin {
+  font-size: 25px;
 }
 
 /*-----  End of 4.0 - Layouts  ------*/
@@ -11566,8 +11586,8 @@ header.header-image .header-content .header-content-inner h5 {
 /*==========  5.1 - Buttons  ==========*/
 .btn-primary {
   color: #ffffff;
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
   text-transform: uppercase;
   padding: 10px 12px;
   margin-bottom: 24px;
@@ -11575,8 +11595,8 @@ header.header-image .header-content .header-content-inner h5 {
 
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #238a9e;
-  border-color: #238a9e;
+  background-color: #88ba00;
+  border-color: #88ba00;
 }
 
 .btn-default {
@@ -11594,16 +11614,16 @@ header.header-image .header-content .header-content-inner h5 {
 
 .btn-success {
   color: #ffffff;
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
   text-transform: uppercase;
   padding: 10px 12px;
 }
 
 .btn-success:hover {
   color: #ffffff;
-  background-color: #238a9e;
-  border-color: #238a9e;
+  background-color: #88ba00;
+  border-color: #88ba00;
 }
 
 /***/
@@ -11617,7 +11637,7 @@ hr {
 
 hr.divider-light-dark {
   max-width: 79.2px;
-  border-color: #2eb6d1;
+  border-color: #a5e200;
   border-width: 3px;
 }
 
@@ -11742,7 +11762,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #blog a:hover h4 {
-  color: #2eb6d1;
+  color: #a5e200;
 }
 
 #blog .pager {
@@ -11751,8 +11771,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #blog .pager a {
-  color: #2eb6d1;
-  border-color: #2eb6d1;
+  color: #a5e200;
+  border-color: #a5e200;
   background-color: #ffffff;
   border-radius: 4px;
   padding: 6px 12px;
@@ -11760,8 +11780,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #blog .pager a:hover {
-  color: #238a9e;
-  border-color: #238a9e;
+  color: #88ba00;
+  border-color: #88ba00;
   background-color: #ffffff;
 }
 
@@ -11773,6 +11793,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 /*==========  6.3 - One Page styles  ==========*/
 .t108-one-page hr {
   margin-bottom: auto;
+  max-width: 150px;
 }
 
 .t108-one-page #about {
@@ -11790,11 +11811,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #about .about-box .icon-about {
   color: #ffffff;
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
-  line-height: 72px;
-  background-color: #2eb6d1;
+  line-height: 96px;
+  background-color: #a5e200;
   margin: 0 auto 24px;
 }
 
@@ -11840,7 +11861,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-numbers .container .counters-box .text-primary, .t108-one-page #counters-progress .container .counters-box .text-primary {
-  color: #2eb6d1;
+  color: #a5e200;
+}
+
+.t108-one-page #counters-numbers .divider-light, .t108-one-page #counters-progress .divider-light {
+  max-width: 150px;
 }
 
 .t108-one-page #counters-numbers {
@@ -11902,8 +11927,9 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   height: 100%;
   opacity: 0;
   background: rgba(34, 34, 34, 0.8);
-  -webkit-transition: all .35s;
-  transition: all .35s;
+  -webkit-transition: all .1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -11929,17 +11955,24 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-services {
-  background-color: #f7f7f7;
+  background-color: #f0f4dc;
   padding: 96px 0 24px;
 }
 
 .t108-one-page #counters-services .icon-services {
-  color: #2eb6d1;
+  color: #a5e200;
   width: 72px;
   height: 72px;
   border-radius: 100%;
   line-height: 72px;
-  border: 2px solid #2eb6d1;
+  border: 2px solid #a5e200;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .t108-one-page #counters-services .counters-box {
@@ -11951,9 +11984,10 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-services .counters-box .divider-light-dark {
-  width: 48px;
+  width: 25px;
   margin-left: 0;
   margin-bottom: 20px;
+  opacity: 50%;
 }
 
 @media (max-width: 768px) {
@@ -12021,7 +12055,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #team .container ul.social-buttons li a:hover, .t108-one-page #team .container ul.social-buttons li a:focus, .t108-one-page #team .container ul.social-buttons li a:active {
-  background-color: #2eb6d1;
+  background-color: #a5e200;
 }
 
 @media (max-width: 768px) {
@@ -12084,7 +12118,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #error-404 .background-error {
-  background-color: #f7f7f7;
+  background-color: #f0f4dc;
 }
 
 #error-404 h1 {
@@ -12674,13 +12708,13 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements #buttons .buttons-round .btn-primary, #interactive-elements #buttons .buttons-round .btn-success {
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
 }
 
 #interactive-elements #buttons .buttons-round .btn-primary:hover, #interactive-elements #buttons .buttons-round .btn-success:hover {
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
 }
 
 #interactive-elements #buttons .buttons-round .btn-primary {
@@ -12693,13 +12727,13 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements #buttons .buttons-round .buttons-hover .btn-primary, #interactive-elements #buttons .buttons-round .buttons-hover .btn-success {
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
 }
 
 #interactive-elements #buttons .buttons-round .buttons-hover .btn-primary:hover, #interactive-elements #buttons .buttons-round .buttons-hover .btn-success:hover {
-  background-color: #238a9e;
-  border-color: #238a9e;
+  background-color: #88ba00;
+  border-color: #88ba00;
 }
 
 @media (max-width: 768px) {
@@ -12734,14 +12768,14 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements #buttons .rectangle-buttons .btn-primary, #interactive-elements #buttons .rectangle-buttons .btn-success {
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
   border-radius: 0px;
 }
 
 #interactive-elements #buttons .rectangle-buttons .btn-primary:hover, #interactive-elements #buttons .rectangle-buttons .btn-success:hover {
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
 }
 
 #interactive-elements #buttons .rectangle-buttons .btn-primary {
@@ -12754,14 +12788,14 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-primary, #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-success {
-  background-color: #2eb6d1;
-  border-color: #2eb6d1;
+  background-color: #a5e200;
+  border-color: #a5e200;
   border-radius: 0px;
 }
 
 #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-primary:hover, #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-success:hover {
-  background-color: #238a9e;
-  border-color: #238a9e;
+  background-color: #88ba00;
+  border-color: #88ba00;
 }
 
 @media (max-width: 768px) {
@@ -12824,7 +12858,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   width: 260px;
   padding: 0;
   border: 0px;
-  background-color: #f7f7f7;
+  background-color: #f0f4dc;
   color: #5b5b5b;
   margin-bottom: 0;
 }
