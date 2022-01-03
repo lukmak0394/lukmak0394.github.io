@@ -5,16 +5,16 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-size: $base-font-size;
 	color: $color-text;
-	font-family: $font-primary;
+	font-family: $font-raleway;
 
 	a, input, p {
-		font-family: $font-primary;
+		font-family: $font-raleway;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		text-transform: $text-transform-base;
 		color: $color-headings;
-		font-family: $font-secondary;
+		font-family: $font-archivo;
 		margin-bottom: $baseline;
 		margin-top: $baseline;
 	}
