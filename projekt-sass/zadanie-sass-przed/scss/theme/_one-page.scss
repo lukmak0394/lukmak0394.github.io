@@ -5,11 +5,13 @@
 
     hr {
         margin-bottom: auto;
+        max-width: $baseline * 6.25;
     }
 
     #about {
         margin-top: $baseline * 4;
 		padding: ($baseline * 4) $padding-none;
+
 
         .about-box {
             margin: ($baseline * 3) auto $margin-none;
