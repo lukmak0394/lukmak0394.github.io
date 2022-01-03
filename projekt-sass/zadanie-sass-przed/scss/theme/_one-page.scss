@@ -74,6 +74,10 @@
                 }
             }
         }
+
+        .divider-light {
+            max-width: $baseline * 6.25;
+        }
     }
     
     #counters-numbers { 
