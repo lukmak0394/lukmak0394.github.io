@@ -40,7 +40,10 @@
 				}
 
 				.fa-twitter {
-					color: $color-primary;
+					color: $color-link;
+				}
+				.fa-twitter:hover {
+					color: $color-link-hover;
 				}
 			}
 
