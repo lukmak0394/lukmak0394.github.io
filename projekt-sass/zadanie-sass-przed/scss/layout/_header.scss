@@ -113,11 +113,11 @@ header.header-image {
             margin-bottom: $margin-none;
 
         	.fa-twitter, .fa-facebook, .fa-linkedin, .fa-google-plus {
-        		color: $color-primary;
+        		color: $color-link;
         	}
 
         	.fa-twitter:hover, .fa-facebook:hover, .fa-linkedin:hover, .fa-google-plus:hover {
-        		color: $color-primary-darker;
+        		color: $color-link-hover;
         	}
         }
     }
